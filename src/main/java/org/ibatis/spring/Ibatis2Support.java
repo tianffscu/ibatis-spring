@@ -1,24 +1,17 @@
 /*
- *    Copyright 2015-2021 the original author or authors.
+ * SPDX-License-Identifier: Apache-2.0
+ * See LICENSE file for details.
  *
- *    Licensed under the Apache License, Version 2.0 (the "License");
- *    you may not use this file except in compliance with the License.
- *    You may obtain a copy of the License at
- *
- *       http://www.apache.org/licenses/LICENSE-2.0
- *
- *    Unless required by applicable law or agreed to in writing, software
- *    distributed under the License is distributed on an "AS IS" BASIS,
- *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *    See the License for the specific language governing permissions and
- *    limitations under the License.
+ * Copyright 2015-2026 the original author or authors.
  */
 package org.ibatis.spring;
 
 /**
- * Ibatis2Support provided by mybatis is a shaded copy of spring 3.2.x to remove dependency on upgrade to spring 4
- * requiring users also upgrade ibatis at same time. This is meant as a bridge to getting to mybatis with hindrance on
- * other libraries.
+ * Ibatis2Support provided by mybatis includes native Spring iBATIS integration classes (sourced from Spring 3.2.x and
+ * updated for modern Spring compatibility) to allow users of iBATIS to freely upgrade to Spring 5+ without being forced
+ * to simultaneously upgrade to MyBatis. This is meant as a bridge to eventually migrating to MyBatis.
+ * <p>
+ * The core integration classes are located under {@code org.springframework.orm.ibatis}.
  */
 public class Ibatis2Support {
   // No additional support provided.

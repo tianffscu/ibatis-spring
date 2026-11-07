@@ -2,12 +2,18 @@ ibatis spring
 =============
 
 [![Java CI](https://github.com/mybatis/ibatis-spring/actions/workflows/ci.yaml/badge.svg)](https://github.com/mybatis/ibatis-spring/actions/workflows/ci.yaml)
-[![Maven central](https://maven-badges.herokuapp.com/maven-central/org.mybatis/mybatis-2-spring/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.mybatis/mybatis-2-spring)
-[![License](http://img.shields.io/:license-apache-brightgreen.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![Coverage Status](https://coveralls.io/repos/github/mybatis/ibatis-spring/badge.svg?branch=master)](https://coveralls.io/github/mybatis/ibatis-spring?branch=master)
+[![Maven Central](https://img.shields.io/maven-central/v/org.mybatis/mybatis-2-spring.svg)](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring)
+[![Docs](https://img.shields.io/badge/docs-mybatis.org-blue?logo=github)](https://mybatis.org/ibatis-spring/)
+[![License](https://img.shields.io/:license-apache-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-![mybatis](http://mybatis.github.io/images/mybatis-logo.png)
+![mybatis](https://mybatis.org/images/mybatis-logo.png)
 
-The Mybatis 'ibatis-spring' module is a copy from spring 3.2.x as a shaded module in order to allow users using ibatis to 
-freely upgrade to spring4+ without having a hard dependency on upgrading ibatis in the process.
+The Mybatis 'ibatis-spring' module is a copy from spring 3.2.x in order to allow users using ibatis to 
+freely upgrade to spring4+ without having a hard dependency on upgrading ibatis in the process.  This is known working any 5.x up until latest 7.x as of 6/6/2026.
 
-This repository is read-only. Consider upgrading to [MyBatis](https://github.com/mybatis/mybatis-3) with [MybatisSpring](https://github.com/mybatis/spring).
+- Versions prior to 1.3.0 require java 8 and are for spring up to 5.
+- Version 1.3.0 is for spring 5 specifically but modernized so it works up through spring 7 and requires java 11.
+- Version 1.4.0 is for spring 6+ as it requires java 17.
+
+Consider upgrading to [MyBatis](https://github.com/mybatis/mybatis-3) with [MybatisSpring](https://github.com/mybatis/spring).
